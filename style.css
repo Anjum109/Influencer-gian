@@ -191,3 +191,31 @@ footer {
 .symbol span {
     padding: 10px;
 }
+
+.icon1 {
+    display: none;
+}
+
+@media only screen and (max-width:688px) {
+    .container {
+        width: 100%;
+    }
+
+    nav a {
+        display: none;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .icon1 {
+        display: flex;
+        gap: 63px;
+    }
+
+    h1.text-for-mobile {
+        font-size: 21px;
+        margin-top: 1%;
+    }
+}
